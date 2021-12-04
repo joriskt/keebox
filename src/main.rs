@@ -18,7 +18,7 @@ struct GlobalArgs {
     #[structopt(about = "the keebox file", parse(from_os_str))]
     file: PathBuf,
 
-    #[structopt(about = "the name of the key to get")]
+    #[structopt(about = "the name of the key to read/write")]
     key: String,
 }
 
